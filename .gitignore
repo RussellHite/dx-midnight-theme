@@ -1,0 +1,21 @@
+# SASS cache
+.sass-cache
+*.css.map
+
+# Mac OS file
+.DS_Store
+
+# Windows File
+.thumb
+*.Thumbs.db
+
+# Test project
+proj/javasource/
+proj/deployment/
+proj/theme/
+proj/.classpath
+proj/.project
+*.launch
+*.tmp
+*.lock
+.idea/
