@@ -1,0 +1,12 @@
+/* ==========================================================================
+   Layout
+
+   Default Mendix Layout
+========================================================================== */
+.profile-phone {
+	.region-topbar {
+		min-height: $m-height-header;
+		background-color: $color-default;
+		border: 0;
+	}
+}

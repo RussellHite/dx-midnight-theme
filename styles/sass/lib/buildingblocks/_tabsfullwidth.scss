@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Tabs full width
+========================================================================== */
+.tabsfullwidth {
+	background-color: $color-inverse;
+	> .mx-tabcontainer-tabs {
+		margin-bottom: 0;
+        border: none;
+        
+        li a{
+          color:$color-light;  
+        }
+        li a:hover{
+           color:$color-default-light;  
+        }
+
+		@media (min-width: $screen-sm) {
+			padding: 0 40px;
+		}
+	}
+	> .mx-tabcontainer-content {
+		background-color: #FFF;
+	}
+}

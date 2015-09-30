@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Page Header
+========================================================================== */
+.pageheader {
+	border-bottom: 2px solid $color-border-default;
+	@include default-spacing($type: margin, $direction: bottom, $device: responsive);
+}
+
+
+.pageheader.pageheader-fullwidth {
+	background-color: $color-inverse;
+	border-bottom: 1px solid  $color-inverse;
+	margin-bottom: 0;
+}
+.pageheader-title {
+	margin-bottom: 0;
+	margin-top: 0;
+    color: $color-light;
+}
+.pageheader-subtitle {
+	color: $color-primary;
+    margin-top: 0;
+}
+
+.pageheader-fullwidth.pageheader.jumbotron{
+    color:$color-light;
+    
+}
