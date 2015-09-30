@@ -1,0 +1,11 @@
+// ==========================================================================
+// Widgets
+//
+// To be used for overwriting widget styles
+// ==========================================================================
+.mx-name-mendixAppSwitcher1.mx-appswitcher-button-placeholder 
+> iframe > html > body > #appswitcherbutton 
+> #appswitcher-button a .glyphicon.glyphicon-th{
+  //font-size: 23px;
+  color: $color-info-light !important;
+}

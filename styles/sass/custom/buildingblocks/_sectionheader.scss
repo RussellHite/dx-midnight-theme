@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Section Header
+========================================================================== */
+.sectionheader {
+    text-transform: uppercase;
+    color:#fff;
+	/* Styles here */
+}
+.sectionheader-title {
+    color:$color-light;
+	/* Styles here */
+}
+
+.mx-layoutgrid-fluid .sectionheader-title {
+    color:#fff;
+	/* Styles here */
+}
+
+.mx-layoutgrid-fixed .sectionheader-title, .mx-layoutgrid-fixed .sectionheader{
+    color:#000;
+	/* Styles here */
+}
+.sectionheader-subtitle {
+    color: rgba($color-primary, .8);
+    text-transform: none;
+	/* Styles here */
+}
+.sectionheader-avatar {
+	/* Styles here */
+}
