@@ -3,27 +3,22 @@
 
    Default settings
 ========================================================================== */
-/* line 6, ../../sass/custom/base/_base.scss */
 body {
   /* Styles here */
 }
 
-/* line 9, ../../sass/custom/base/_base.scss */
 a {
   /* Styles here */
 }
 
-/* line 12, ../../sass/custom/base/_base.scss */
 a:hover {
   /* Styles here */
 }
 
-/* line 15, ../../sass/custom/base/_base.scss */
 a:focus {
   /* Styles here */
 }
 
-/* line 19, ../../sass/custom/base/_base.scss */
 a:active,
 a:hover {
   /* Styles here */
@@ -34,12 +29,10 @@ a:hover {
 
    Default Bootstrap and Mendix Buttons
 ========================================================================== */
-/* line 7, ../../sass/custom/components/_buttons.scss */
 .btn,
 .mx-button {
   /* Styles here */
 }
-/* line 11, ../../sass/custom/components/_buttons.scss */
 .btn:hover, .btn:focus, .btn:active,
 .mx-button:hover,
 .mx-button:focus,
@@ -47,42 +40,34 @@ a:hover {
   /* Styles here */
 }
 
-/* line 17, ../../sass/custom/components/_buttons.scss */
 .mx-link {
   /* Styles here */
 }
 
-/* line 31, ../../sass/custom/components/_buttons.scss */
 .btn-default {
   /* Styles here */
 }
 
-/* line 34, ../../sass/custom/components/_buttons.scss */
 .btn-primary {
   /* Styles here */
 }
 
-/* line 37, ../../sass/custom/components/_buttons.scss */
 .btn-inverse {
   /* Styles here */
 }
 
-/* line 40, ../../sass/custom/components/_buttons.scss */
 .btn-success {
   /* Styles here */
 }
 
-/* line 43, ../../sass/custom/components/_buttons.scss */
 .btn-info {
   /* Styles here */
 }
 
-/* line 46, ../../sass/custom/components/_buttons.scss */
 .btn-warning {
   /* Styles here */
 }
 
-/* line 49, ../../sass/custom/components/_buttons.scss */
 .btn-danger {
   /* Styles here */
 }
@@ -92,35 +77,24 @@ a:hover {
 
    Default Mendix Datagrid Widget. The datagrid shows a list of objects in a grid
 ========================================================================== */
-/* line 6, ../../sass/custom/components/_datagrids.scss */
 .mx-datagrid {
   /* Styles here */
 }
-/* line 8, ../../sass/custom/components/_datagrids.scss */
 .mx-datagrid .mx-datagrid-head-table {
   /* Styles here */
 }
-/* line 10, ../../sass/custom/components/_datagrids.scss */
 .mx-datagrid .mx-datagrid-head-table th {
   /* Styles here */
 }
-/* line 13, ../../sass/custom/components/_datagrids.scss */
 .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper {
   /* Styles here */
 }
-/* line 15, ../../sass/custom/components/_datagrids.scss */
-.mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper .mx-datagrid-head-caption {
-  font-size: 11px;
-}
-/* line 20, ../../sass/custom/components/_datagrids.scss */
 .mx-datagrid .mx-datagrid-body-table {
   /* Styles here */
 }
-/* line 22, ../../sass/custom/components/_datagrids.scss */
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr {
   /* Styles here */
 }
-/* line 24, ../../sass/custom/components/_datagrids.scss */
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
   /* Styles here */
 }
@@ -130,11 +104,9 @@ a:hover {
 
    Default Mendix Dataview Widget. The data view is used for showing the contents of exactly one object
 ========================================================================== */
-/* line 6, ../../sass/custom/components/_dataview.scss */
 .mx-dataview {
   /* Styles here */
 }
-/* line 9, ../../sass/custom/components/_dataview.scss */
 .mx-dataview .mx-dataview-controls {
   /* Styles here */
 }
@@ -144,51 +116,39 @@ a:hover {
 
    Default Mendix Grid
 ========================================================================== */
-/* line 6, ../../sass/custom/components/_grid.scss */
 .mx-grid {
   /* Styles here */
 }
-/* line 8, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar {
   /* Styles here */
 }
-/* line 11, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar {
   /* Styles here */
 }
-/* line 14, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-button {
   /* Styles here */
 }
-/* line 16, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-button:hover {
   /* Styles here */
 }
-/* line 22, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-grid-paging-status {
   /* Styles here */
 }
-/* line 27, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar {
   /* Styles here */
 }
-/* line 29, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar .mx-grid-search-item {
   /* Styles here */
 }
-/* line 31, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar .mx-grid-search-item .mx-grid-search-label {
   /* Styles here */
 }
-/* line 35, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar .mx-grid-search-input {
   /* Styles here */
 }
-/* line 37, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar .mx-grid-search-input .form-control {
   /* Styles here */
 }
-/* line 40, ../../sass/custom/components/_grid.scss */
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar .mx-grid-search-input .mx-button {
   /* Styles here */
 }
@@ -198,23 +158,18 @@ a:hover {
 
    Default Mendix Groupboxes
 ========================================================================== */
-/* line 6, ../../sass/custom/components/_groupbox.scss */
 .mx-groupbox {
   /* Styles here */
 }
-/* line 8, ../../sass/custom/components/_groupbox.scss */
 .mx-groupbox > .mx-groupbox-header {
   /* Styles here */
 }
-/* line 14, ../../sass/custom/components/_groupbox.scss */
 .mx-groupbox > .mx-groupbox-body {
   /* Styles here */
 }
-/* line 17, ../../sass/custom/components/_groupbox.scss */
 .mx-groupbox .mx-groupbox-header + .mx-groupbox-body {
   /* Styles here */
 }
-/* line 20, ../../sass/custom/components/_groupbox.scss */
 .mx-groupbox.collapsed > .mx-groupbox-header {
   /* Styles here */
 }
@@ -222,12 +177,10 @@ a:hover {
 /* ==========================================================================
    Inputs
 ========================================================================== */
-/* line 4, ../../sass/custom/components/_inputs.scss */
 .form-control {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/components/_inputs.scss */
 .form-control:focus {
   /* Styles here */
 }
@@ -237,35 +190,27 @@ a:hover {
 
    Default Mendix Listview Widget. The list view shows a list of objects arranged vertically. Each object is shown using a template
 ========================================================================== */
-/* line 6, ../../sass/custom/components/_listview.scss */
 .mx-listview {
   /* Styles here */
 }
-/* line 9, ../../sass/custom/components/_listview.scss */
 .mx-listview .mx-button.mx-listview-clear-button {
   /* Styles here */
 }
-/* line 12, ../../sass/custom/components/_listview.scss */
 .mx-listview > .mx-button {
   /* Load more button */
 }
-/* line 18, ../../sass/custom/components/_listview.scss */
 .mx-listview .mx-listview-item {
   /* Styles here */
 }
-/* line 20, ../../sass/custom/components/_listview.scss */
 .mx-listview .mx-listview-item:hover {
   /* Styles here */
 }
-/* line 23, ../../sass/custom/components/_listview.scss */
 .mx-listview .mx-listview-item.selected {
   /* Styles here */
 }
-/* line 25, ../../sass/custom/components/_listview.scss */
 .mx-listview .mx-listview-item.selected:hover {
   /* Styles here */
 }
-/* line 29, ../../sass/custom/components/_listview.scss */
 .mx-listview .mx-listview-item:nth-child(2n+1) {
   /* Styles here */
 }
@@ -275,59 +220,46 @@ a:hover {
 
    Default Mendix Modals. Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults
 ========================================================================== */
-/* line 6, ../../sass/custom/components/_modals.scss */
 .modal-dialog {
   /* Styles here */
 }
-/* line 8, ../../sass/custom/components/_modals.scss */
 .modal-dialog .modal-content {
   /* Styles here */
 }
-/* line 10, ../../sass/custom/components/_modals.scss */
 .modal-dialog .modal-content .modal-header {
   /* Styles here */
 }
-/* line 12, ../../sass/custom/components/_modals.scss */
 .modal-dialog .modal-content .modal-header h4 {
   /* Styles here */
 }
-/* line 15, ../../sass/custom/components/_modals.scss */
 .modal-dialog .modal-content .modal-header .close {
   /* Styles here */
 }
-/* line 19, ../../sass/custom/components/_modals.scss */
 .modal-dialog .modal-content .modal-body {
   /* Styles here */
 }
-/* line 22, ../../sass/custom/components/_modals.scss */
 .modal-dialog .modal-content .modal-footer {
   /* Styles here */
 }
 
 /* Default Mendix Window Modal */
 /* Default Mendix Login Modal */
-/* line 48, ../../sass/custom/components/_modals.scss */
 .mx-login {
   /* Styles here */
 }
-/* line 50, ../../sass/custom/components/_modals.scss */
 .mx-login .modal-body {
   /* Styles here */
 }
-/* line 53, ../../sass/custom/components/_modals.scss */
 .mx-login .modal-content {
   /* Styles here */
 }
-/* line 63, ../../sass/custom/components/_modals.scss */
 .mx-login .modal-header,
 .mx-login .modal-footer {
   /* Styles here */
 }
-/* line 66, ../../sass/custom/components/_modals.scss */
 .mx-login button {
   /* Styles here */
 }
-/* line 69, ../../sass/custom/components/_modals.scss */
 .mx-login h4 {
   /* Styles here */
 }
@@ -337,31 +269,24 @@ a:hover {
 
    Default Mendix Navigation Bar
 ========================================================================== */
-/* line 6, ../../sass/custom/components/_navigation.scss */
 .mx-navbar {
   /* Styles here */
 }
-/* line 8, ../../sass/custom/components/_navigation.scss */
 .mx-navbar ul.nav {
   /* Styles here */
 }
-/* line 11, ../../sass/custom/components/_navigation.scss */
 .mx-navbar ul.nav > li.mx-navbar-item > a {
   /* Styles here */
 }
-/* line 19, ../../sass/custom/components/_navigation.scss */
 .mx-navbar ul.nav > li.mx-navbar-item > a:hover, .mx-navbar ul.nav > li.mx-navbar-item > a:focus, .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   /* Styles here */
 }
-/* line 25, ../../sass/custom/components/_navigation.scss */
 .mx-navbar ul.nav > li.mx-navbar-item > a.active {
   /* Styles here */
 }
-/* line 28, ../../sass/custom/components/_navigation.scss */
 .mx-navbar ul.nav > li.mx-navbar-item > a .mx-navbar-submenu:before {
   /* Dropdown Menu */
 }
-/* line 41, ../../sass/custom/components/_navigation.scss */
 .mx-navbar ul.nav > .mx-navbar-item > a:hover,
 .mx-navbar ul.nav > .mx-navbar-item > a:focus,
 .mx-navbar ul.nav > .mx-navbar-item.active a,
@@ -370,7 +295,6 @@ a:hover {
 .mx-navbar ul.nav > .mx-navbar-item.open > a:focus {
   /* When hovering or the dropdown is open */
 }
-/* line 47, ../../sass/custom/components/_navigation.scss */
 .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a {
   /* Styles here */
 }
@@ -380,44 +304,29 @@ a:hover {
 
    Default Mendix Navigation Tree
 ========================================================================== */
-/* line 82, ../../sass/custom/components/_navigation.scss */
 .mx-navigationtree {
   /* Styles here */
 }
-/* line 85, ../../sass/custom/components/_navigation.scss */
 .mx-navigationtree .navbar-inner ul {
   /* Styles here */
 }
-/* line 87, ../../sass/custom/components/_navigation.scss */
 .mx-navigationtree .navbar-inner ul li {
   /* Styles here */
 }
-/* line 89, ../../sass/custom/components/_navigation.scss */
 .mx-navigationtree .navbar-inner ul li a {
-  padding: 20px;
-  border: 0;
+  /*padding: 20px;
+  border: 0;*/
 }
-/* line 92, ../../sass/custom/components/_navigation.scss */
-.mx-navigationtree .navbar-inner ul li a .glyphicon {
-  margin-right: 0.3em;
-}
-/* line 106, ../../sass/custom/components/_navigation.scss */
 .mx-navigationtree .navbar-inner ul li a:hover,
 .mx-navigationtree .navbar-inner ul li a:focus,
 .mx-navigationtree .navbar-inner ul li a.active {
   /* Styles here */
 }
-/* line 113, ../../sass/custom/components/_navigation.scss */
 .mx-navigationtree .navbar-inner ul li a.active {
   /* Styles here */
 }
-/* line 120, ../../sass/custom/components/_navigation.scss */
 .mx-navigationtree li.mx-navigationtree-has-items {
   /* Styles here */
-}
-/* line 126, ../../sass/custom/components/_navigation.scss */
-.mx-navigationtree li.mx-navigationtree-has-items > ul li a {
-  padding: 15px 40px;
 }
 
 /* ==========================================================================
@@ -425,27 +334,21 @@ a:hover {
 
    Default Mendix Simple Menu Bar
 ========================================================================== */
-/* line 148, ../../sass/custom/components/_navigation.scss */
 .mx-menubar {
   /* Styles here */
 }
-/* line 150, ../../sass/custom/components/_navigation.scss */
 .mx-menubar ul.mx-menubar-list {
   /* Styles here */
 }
-/* line 152, ../../sass/custom/components/_navigation.scss */
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item {
   /* Styles here */
 }
-/* line 154, ../../sass/custom/components/_navigation.scss */
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item a {
   /* Styles here */
 }
-/* line 159, ../../sass/custom/components/_navigation.scss */
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item:hover a, .mx-menubar ul.mx-menubar-list li.mx-menubar-item:focus a, .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   /* Styles here */
 }
-/* line 162, ../../sass/custom/components/_navigation.scss */
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
   /* Styles here */
 }
@@ -455,15 +358,12 @@ a:hover {
 
    Default Mendix Navigation List Widget. A navigation list can be used to attach an action to an entire row. Such a row is called a navigation list item
 ========================================================================== */
-/* line 6, ../../sass/custom/components/_navigationlist.scss */
 .mx-navigationlist {
   /* Styles here */
 }
-/* line 8, ../../sass/custom/components/_navigationlist.scss */
 .mx-navigationlist .mx-navigationlist-item {
   /* Styles here */
 }
-/* line 10, ../../sass/custom/components/_navigationlist.scss */
 .mx-navigationlist .mx-navigationlist-item:hover {
   /* Styles here */
 }
@@ -474,29 +374,23 @@ a:hover {
    Default Mendix Tab Container Widget. Tab containers are used to show information categorized into multiple tab pages. 
    This can be very useful if the amount of information that has to be displayed is larger than the amount of space on the screen
 ========================================================================== */
-/* line 7, ../../sass/custom/components/_tabcontainer.scss */
 .mx-tabcontainer {
   /* Styles here */
 }
-/* line 9, ../../sass/custom/components/_tabcontainer.scss */
 .mx-tabcontainer .mx-tabcontainer-tabs {
   /* Styles here */
 }
-/* line 11, ../../sass/custom/components/_tabcontainer.scss */
 .mx-tabcontainer .mx-tabcontainer-tabs > li > a {
   /* Styles here */
 }
-/* line 14, ../../sass/custom/components/_tabcontainer.scss */
 .mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
   /* Styles here */
 }
-/* line 21, ../../sass/custom/components/_tabcontainer.scss */
 .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a,
 .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover,
 .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:focus {
   /* Styles here */
 }
-/* line 25, ../../sass/custom/components/_tabcontainer.scss */
 .mx-tabcontainer .mx-tabcontainer-content {
   /* Styles here */
 }
@@ -506,23 +400,18 @@ a:hover {
 
    Default Mendix Table Widget. Tables can be used to lend structure to a page. They contain a number of rows (tr) and columns, the intersection of which is called a cell (td). Each cell can contain widgets
 ========================================================================== */
-/* line 6, ../../sass/custom/components/_tables.scss */
 table.mx-table {
   /* Styles here */
 }
-/* line 10, ../../sass/custom/components/_tables.scss */
 table.mx-table > tbody > tr {
   /* Styles here */
 }
-/* line 12, ../../sass/custom/components/_tables.scss */
 table.mx-table > tbody > tr > th {
   /* Styles here */
 }
-/* line 14, ../../sass/custom/components/_tables.scss */
 table.mx-table > tbody > tr > th > label {
   /* Styles here */
 }
-/* line 19, ../../sass/custom/components/_tables.scss */
 table.mx-table > tbody > tr > td {
   /* Styles here */
 }
@@ -532,23 +421,18 @@ table.mx-table > tbody > tr > td {
 
    Default Mendix Templategrid Widget. The template grid shows a list of objects in a tile view. For example, a template grid can show a list of products. The template grid has a lot in common with the data grid. The main difference is that the objects are shown in templates (a sort of small data view) instead of rows
 ========================================================================== */
-/* line 6, ../../sass/custom/components/_templategrids.scss */
 .mx-templategrid {
   /* Styles here */
 }
-/* line 8, ../../sass/custom/components/_templategrids.scss */
 .mx-templategrid .mx-templategrid-item {
   /* Styles here */
 }
-/* line 10, ../../sass/custom/components/_templategrids.scss */
 .mx-templategrid .mx-templategrid-item:hover {
   /* Styles here */
 }
-/* line 13, ../../sass/custom/components/_templategrids.scss */
 .mx-templategrid .mx-templategrid-item.selected {
   /* Styles here */
 }
-/* line 15, ../../sass/custom/components/_templategrids.scss */
 .mx-templategrid .mx-templategrid-item.selected:hover {
   /* Styles here */
 }
@@ -556,33 +440,27 @@ table.mx-table > tbody > tr > td {
 /* ==========================================================================
    Typography
 ========================================================================== */
-/* line 4, ../../sass/custom/components/_typography.scss */
 p {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/components/_typography.scss */
 label {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/components/_typography.scss */
 .mx-title {
   /* Styles here */
 }
 
-/* line 21, ../../sass/custom/components/_typography.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   /* Styles here */
 }
 
-/* line 40, ../../sass/custom/components/_typography.scss */
 .d-text h3, .d-text div {
-  color: #000;
+  /*color: #000; */
 }
 
-/* line 8, ../../sass/custom/components/_widgets.scss */
 .mx-name-mendixAppSwitcher1.mx-appswitcher-button-placeholder
 > iframe > html > body > #appswitcherbutton
 > #appswitcher-button a .glyphicon.glyphicon-th {
@@ -594,46 +472,21 @@ h1, h2, h3, h4, h5, h6,
 
    Used for navigation layouts
 ========================================================================== */
-/* line 6, ../../sass/custom/layouts/_base.scss */
 .region-topbar {
-  border-bottom-color: #102842;
-  min-height: 60px;
+  /*border-bottom-color: $color-default;
+  min-height: 60px;*/
 }
-/* line 10, ../../sass/custom/layouts/_base.scss */
-.region-topbar .mx-layoutcontainer-wrapper .mx-navbar ul.nav > li.mx-navbar-item > a {
-  color: white;
-}
-/* line 13, ../../sass/custom/layouts/_base.scss */
 .region-topbar .mx-layoutcontainer-wrapper .navbar-brand img {
-  height: 26px;
+  /*height: 26px;
   margin-top: -5px;
-  margin-right: 5px;
+  margin-right: 5px;*/
 }
-/* line 18, ../../sass/custom/layouts/_base.scss */
-.region-topbar .mx-layoutcontainer-wrapper .mx-navbar ul.nav > li.mx-navbar-item > a {
-  padding: 20px;
-}
-/* line 22, ../../sass/custom/layouts/_base.scss */
 .region-topbar .toggle-btn {
-  color: white;
-  background: #00b4ff;
-  border: none;
-  font-size: 14px;
-  margin: 11px 10px 0 0;
-}
-/* line 28, ../../sass/custom/layouts/_base.scss */
-.region-topbar .toggle-btn:focus {
-  background: #0085bc;
-}
-/* line 35, ../../sass/custom/layouts/_base.scss */
-.region-topbar .navbar-right .mx-appswitcher-button-placeholder,
-.region-topbar .navbar-right .mx-profilemenu-button-placeholder {
-  border: 0;
-}
-/* line 39, ../../sass/custom/layouts/_base.scss */
-.region-topbar .navbar-right .mx-profilemenu-button-placeholder iframe {
-  width: 38px !important;
-  height: 38px !important;
+  		/*color: $color-light;
+          background: $color-primary;
+  		border: none;
+  		font-size: 14px;
+  		margin: 11px 10px 0 0;*/
 }
 
 /* ==========================================================================
@@ -641,15 +494,9 @@ h1, h2, h3, h4, h5, h6,
 
    Used to style your app brand and logo
 ========================================================================== */
-/* line 64, ../../sass/custom/layouts/_base.scss */
 .navbar-brand {
-  min-height: 60px;
-  padding: 21px 5px;
-}
-/* line 70, ../../sass/custom/layouts/_base.scss */
-.navbar-brand a {
-  color: white;
-  font-size: 18px;
+  	/*min-height: $60px;
+	padding: 21px 5px;*/
 }
 
 /* ==========================================================================
@@ -657,12 +504,10 @@ h1, h2, h3, h4, h5, h6,
 
    Default Mendix Layout
 ========================================================================== */
-/* line 7, ../../sass/custom/mobile/layouts/_base.scss */
 .profile-phone,
 .profile-tablet {
   /* Styles here */
 }
-/* line 9, ../../sass/custom/mobile/layouts/_base.scss */
 .profile-phone .mx-layoutcontainer-wrapper,
 .profile-tablet .mx-layoutcontainer-wrapper {
   /* Styles here */
@@ -671,37 +516,30 @@ h1, h2, h3, h4, h5, h6,
 /* ==========================================================================
    Listview for phone and tablet
 ========================================================================== */
-/* line 6, ../../sass/custom/mobile/components/_listview.scss */
 .profile-phone .mx-listview,
 .profile-tablet .mx-listview {
   /* Styles here */
 }
-/* line 8, ../../sass/custom/mobile/components/_listview.scss */
 .profile-phone .mx-listview .mx-listview-searchbar,
 .profile-tablet .mx-listview .mx-listview-searchbar {
   /* Styles here */
 }
-/* line 10, ../../sass/custom/mobile/components/_listview.scss */
 .profile-phone .mx-listview .mx-listview-searchbar button,
 .profile-tablet .mx-listview .mx-listview-searchbar button {
   /* Reset Search Button - default hidden */
 }
-/* line 13, ../../sass/custom/mobile/components/_listview.scss */
 .profile-phone .mx-listview .mx-listview-searchbar .mx-listview-search-input,
 .profile-tablet .mx-listview .mx-listview-searchbar .mx-listview-search-input {
   /* Search Field */
 }
-/* line 15, ../../sass/custom/mobile/components/_listview.scss */
 .profile-phone .mx-listview .mx-listview-searchbar .mx-listview-search-input input,
 .profile-tablet .mx-listview .mx-listview-searchbar .mx-listview-search-input input {
   /* Styles here */
 }
-/* line 31, ../../sass/custom/mobile/components/_listview.scss */
 .profile-phone label,
 .profile-tablet label {
   /* Styles here */
 }
-/* line 34, ../../sass/custom/mobile/components/_listview.scss */
 .profile-phone .mx-listview-loadMore,
 .profile-tablet .mx-listview-loadMore {
   /* Listview Load More button */
@@ -712,32 +550,25 @@ h1, h2, h3, h4, h5, h6,
 
    Default Mendix Header for Mobile 
 ========================================================================== */
-/* line 6, ../../sass/custom/mobile/components/_mx-header.scss */
 body .mx-header {
   /* Styles here */
   border: 0;
 }
-/* line 9, ../../sass/custom/mobile/components/_mx-header.scss */
 body .mx-header .mx-header-center {
   /* Styles here */
 }
-/* line 12, ../../sass/custom/mobile/components/_mx-header.scss */
 body .mx-header .mx-header-left {
   /* Styles here */
 }
-/* line 14, ../../sass/custom/mobile/components/_mx-header.scss */
 body .mx-header .mx-header-left .mx-link {
   /* Styles here */
 }
-/* line 18, ../../sass/custom/mobile/components/_mx-header.scss */
 body .mx-header .mx-header-right {
   /* Styles here */
 }
-/* line 21, ../../sass/custom/mobile/components/_mx-header.scss */
 body .mx-header .mx-title {
   /* Styles here */
 }
-/* line 27, ../../sass/custom/mobile/components/_mx-header.scss */
 body .mx-header .mx-sidebartoggle {
   /* Styles here */
 }
@@ -747,22 +578,18 @@ body .mx-header .mx-sidebartoggle {
 
    Default Mendix Tabcontainer for Mobile 
 ========================================================================== */
-/* line 8, ../../sass/custom/mobile/components/_tabcontainer.scss */
 .profile-phone .mx-tabcontainer-tabs,
 .profile-tablet .mx-tabcontainer-tabs {
   /* Styles here */
 }
-/* line 10, ../../sass/custom/mobile/components/_tabcontainer.scss */
 .profile-phone .mx-tabcontainer-tabs li,
 .profile-tablet .mx-tabcontainer-tabs li {
   /* Styles here */
 }
-/* line 12, ../../sass/custom/mobile/components/_tabcontainer.scss */
 .profile-phone .mx-tabcontainer-tabs li a,
 .profile-tablet .mx-tabcontainer-tabs li a {
   /* Styles here */
 }
-/* line 16, ../../sass/custom/mobile/components/_tabcontainer.scss */
 .profile-phone .mx-tabcontainer-tabs li a:hover, .profile-phone .mx-tabcontainer-tabs li a:focus, .profile-phone .mx-tabcontainer-tabs li a.active,
 .profile-tablet .mx-tabcontainer-tabs li a:hover,
 .profile-tablet .mx-tabcontainer-tabs li a:focus,
@@ -773,31 +600,25 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Dashboard
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/responsive/_page-dashboard.scss */
 .page-dashboard {
   background-color: #133150;
 }
-/* line 6, ../../sass/custom/pagetemplates/responsive/_page-dashboard.scss */
 .page-dashboard .chartjs-node {
   margin-top: 30px;
 }
 
-/* line 11, ../../sass/custom/pagetemplates/responsive/_page-dashboard.scss */
 .page-dashboard-default .card {
   min-height: 345px;
 }
 
-/* line 16, ../../sass/custom/pagetemplates/responsive/_page-dashboard.scss */
 .page-dashboard-mytasks .card {
   min-height: 320px;
 }
 
-/* line 20, ../../sass/custom/pagetemplates/responsive/_page-dashboard.scss */
 .page-dashboard-actions {
   /* Styles here */
 }
 
-/* line 23, ../../sass/custom/pagetemplates/responsive/_page-dashboard.scss */
 .page-dashboard-actions-tasks {
   /* Styles here */
 }
@@ -805,22 +626,18 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Form
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/responsive/_page-form.scss */
 .page-form {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/pagetemplates/responsive/_page-form.scss */
 .page-form-default {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/pagetemplates/responsive/_page-form.scss */
 .page-form-imagemap {
   /* Styles here */
 }
 
-/* line 13, ../../sass/custom/pagetemplates/responsive/_page-form.scss */
 .page-form-tabs {
   /* Styles here */
 }
@@ -828,27 +645,22 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Master Detail
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/responsive/_page-masterdetail.scss */
 .page-masterdetail {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/pagetemplates/responsive/_page-masterdetail.scss */
 .page-masterdetail-basic {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/pagetemplates/responsive/_page-masterdetail.scss */
 .page-masterdetail-big {
   /* Styles here */
 }
 
-/* line 13, ../../sass/custom/pagetemplates/responsive/_page-masterdetail.scss */
 .page-masterdetail-imagemap {
   /* Styles here */
 }
 
-/* line 16, ../../sass/custom/pagetemplates/responsive/_page-masterdetail.scss */
 .page-masterdetail-multilevel {
   /* Styles here */
 }
@@ -856,22 +668,18 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Tabs
 ========================================================================== */
-/* line 5, ../../sass/custom/pagetemplates/responsive/_page-tabs.scss */
 .page-tabs .section.pageheader {
   border: 0;
   padding-bottom: 20px;
 }
-/* line 9, ../../sass/custom/pagetemplates/responsive/_page-tabs.scss */
 .page-tabs .tabsfullwidth {
-  background-color: #eff4f7;
+  background-color: #EFF4F7;
 }
 
-/* line 13, ../../sass/custom/pagetemplates/responsive/_page-tabs.scss */
 .page-tabs-default {
   /* Styles here */
 }
 
-/* line 17, ../../sass/custom/pagetemplates/responsive/_page-tabs.scss */
 .page-tabs-fullwidth .pageheader.pageheader-fullwidth {
   border-style: none;
 }
@@ -879,27 +687,22 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Website
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/responsive/_page-website.scss */
 .page-website {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/pagetemplates/responsive/_page-website.scss */
 .page-website-actions {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/pagetemplates/responsive/_page-website.scss */
 .page-website-items {
   /* Styles here */
 }
 
-/* line 13, ../../sass/custom/pagetemplates/responsive/_page-website.scss */
 .page-website-items-detail {
   /* Styles here */
 }
 
-/* line 16, ../../sass/custom/pagetemplates/responsive/_page-website.scss */
 .page-website-presentation {
   /* Styles here */
 }
@@ -907,17 +710,14 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Wizard
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/responsive/_page-wizard.scss */
 .page-wizard {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/pagetemplates/responsive/_page-wizard.scss */
 .page-wizard-default {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/pagetemplates/responsive/_page-wizard.scss */
 .page-wizard-titlecentered {
   /* Styles here */
 }
@@ -925,12 +725,10 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Phone
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/phone/_phone-page-dashboard.scss */
 .phone-page-dashboard {
   background-color: #133150;
 }
 
-/* line 7, ../../sass/custom/pagetemplates/phone/_phone-page-dashboard.scss */
 .phone-page-dashboard-default {
   /* Styles here */
 }
@@ -938,17 +736,14 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Phone Form
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/phone/_phone-page-form.scss */
 .phone-page-form {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/pagetemplates/phone/_phone-page-form.scss */
 .phone-page-form-default {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/pagetemplates/phone/_phone-page-form.scss */
 .phone-page-form-edit {
   /* Styles here */
 }
@@ -956,12 +751,10 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Phone Listview
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/phone/_phone-page-listview.scss */
 .phone-page-listview {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/pagetemplates/phone/_phone-page-listview.scss */
 .phone-page-listview-default {
   /* Styles here */
 }
@@ -969,12 +762,10 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Phone Wizard
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/phone/_phone-page-wizard.scss */
 .phone-page-wizard {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/pagetemplates/phone/_phone-page-wizard.scss */
 .phone-page-wizard-default {
   /* Styles here */
 }
@@ -982,22 +773,18 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Tablet Dashboard
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/tablet/_tablet-page-dashboard.scss */
 .tablet-page-dashboard {
   background-color: #133150;
 }
 
-/* line 7, ../../sass/custom/pagetemplates/tablet/_tablet-page-dashboard.scss */
 .tablet-page-dashboard-default {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/pagetemplates/tablet/_tablet-page-dashboard.scss */
 .tablet-page-dashboard-big {
   /* Styles here */
 }
 
-/* line 13, ../../sass/custom/pagetemplates/tablet/_tablet-page-dashboard.scss */
 .tablet-page-dashboard-mytasks {
   /* Styles here */
 }
@@ -1005,17 +792,14 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Tablet Form
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/tablet/_tablet-page-form.scss */
 .tablet-page-form {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/pagetemplates/tablet/_tablet-page-form.scss */
 .tablet-page-form-default {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/pagetemplates/tablet/_tablet-page-form.scss */
 .tablet-page-form-edit {
   /* Styles here */
 }
@@ -1023,17 +807,14 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Tablet Master Detail
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/tablet/_tablet-page-masterdetail.scss */
 .tablet-page-masterdetail {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/pagetemplates/tablet/_tablet-page-masterdetail.scss */
 .tablet-page-masterdetail-default {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/pagetemplates/tablet/_tablet-page-masterdetail.scss */
 .tablet-page-masterdetail-leftright {
   /* Styles here */
 }
@@ -1041,12 +822,10 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Special styles for presenting Page Template Tablet Wizard
 ========================================================================== */
-/* line 4, ../../sass/custom/pagetemplates/tablet/_tablet-page-wizard.scss */
 .tablet-page-wizard {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/pagetemplates/tablet/_tablet-page-wizard.scss */
 .tablet-page-wizard-default {
   /* Styles here */
 }
@@ -1054,59 +833,47 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Card
 ========================================================================== */
-/* line 4, ../../sass/custom/buildingblocks/_card.scss */
 .card {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/buildingblocks/_card.scss */
 .card-header-action {
   /* Title + button + border below title and button */
 }
-/* line 9, ../../sass/custom/buildingblocks/_card.scss */
 .card-header-action .card-title {
   /* Styles here */
 }
-/* line 12, ../../sass/custom/buildingblocks/_card.scss */
 .card-header-action .btn {
   /* Styles here */
 }
 
-/* line 17, ../../sass/custom/buildingblocks/_card.scss */
 .card-details {
   /* Styles here */
 }
 
-/* line 20, ../../sass/custom/buildingblocks/_card.scss */
 .card-title {
   /* Styles here */
 }
 
-/* line 23, ../../sass/custom/buildingblocks/_card.scss */
 .card-subtitle {
   /* Styles here */
 }
 
-/* line 26, ../../sass/custom/buildingblocks/_card.scss */
 .card-annotation {
   /* Styles here */
 }
 
-/* line 29, ../../sass/custom/buildingblocks/_card.scss */
 .card-icon {
   /* Styles here */
 }
-/* line 31, ../../sass/custom/buildingblocks/_card.scss */
 .card-icon .glyphicon {
   /* Styles here */
 }
 
-/* line 35, ../../sass/custom/buildingblocks/_card.scss */
 .card-image {
   /* Styles here */
 }
 
-/* line 41, ../../sass/custom/buildingblocks/_card.scss */
 .card-link {
   /* Styles here */
 }
@@ -1114,22 +881,18 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Dashboard Card
 ========================================================================== */
-/* line 4, ../../sass/custom/buildingblocks/_dashboardcard.scss */
 .dashboardcard {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/buildingblocks/_dashboardcard.scss */
 .dashboardcard-title {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/buildingblocks/_dashboardcard.scss */
 .dashboardcard-subtitle {
   /* Styles here */
 }
 
-/* line 13, ../../sass/custom/buildingblocks/_dashboardcard.scss */
 .dashboardcard-link {
   /* Styles here */
 }
@@ -1139,27 +902,22 @@ body .mx-header .mx-sidebartoggle {
 
    Used in dashboard
 ========================================================================== */
-/* line 6, ../../sass/custom/buildingblocks/_dashboardstat.scss */
 .dashboardstat {
   /* Styles here */
 }
-/* line 9, ../../sass/custom/buildingblocks/_dashboardstat.scss */
 .dashboardstat .dashboardstat-left,
 .dashboardstat .dashboardstat-right {
   /* Styles here */
 }
 
-/* line 17, ../../sass/custom/buildingblocks/_dashboardstat.scss */
 .dashboardstat-icon {
   /* Styles here */
 }
 
-/* line 23, ../../sass/custom/buildingblocks/_dashboardstat.scss */
 .dashboardstat-title {
   /* Styles here */
 }
 
-/* line 29, ../../sass/custom/buildingblocks/_dashboardstat.scss */
 .dashboardstat-number {
   /* Styles here */
 }
@@ -1169,17 +927,14 @@ body .mx-header .mx-sidebartoggle {
 
    To extend the default form
 ========================================================================== */
-/* line 6, ../../sass/custom/buildingblocks/_form.scss */
 .form {
   /* Styles here */
 }
 
-/* line 9, ../../sass/custom/buildingblocks/_form.scss */
 .control-label {
   /* Styles here */
 }
 
-/* line 12, ../../sass/custom/buildingblocks/_form.scss */
 .form-footer {
   /* Styles here */
 }
@@ -1189,12 +944,10 @@ body .mx-header .mx-sidebartoggle {
 
    Used in default forms
 ========================================================================== */
-/* line 6, ../../sass/custom/buildingblocks/_formblock.scss */
 .formblock {
   /* Styles here */
 }
 
-/* line 9, ../../sass/custom/buildingblocks/_formblock.scss */
 .formblock-header {
   /* Styles here */
 }
@@ -1202,22 +955,18 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Page Header
 ========================================================================== */
-/* line 4, ../../sass/custom/buildingblocks/_pageheader.scss */
 .pageheader {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/buildingblocks/_pageheader.scss */
 .pageheader.section {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/buildingblocks/_pageheader.scss */
 .pageheader-title {
   /* Styles here */
 }
 
-/* line 13, ../../sass/custom/buildingblocks/_pageheader.scss */
 .pageheader-subtitle {
   /* Styles here */
 }
@@ -1225,39 +974,33 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Section Header
 ========================================================================== */
-/* line 4, ../../sass/custom/buildingblocks/_sectionheader.scss */
 .sectionheader {
-  text-transform: uppercase;
-  color: #fff;
-  /* Styles here */
+    /* text-transform: uppercase;
+    color:#fff;
+	Styles here */
 }
 
-/* line 9, ../../sass/custom/buildingblocks/_sectionheader.scss */
 .sectionheader-title {
-  color: white;
-  /* Styles here */
+    /* color:$color-light;
+	 Styles here */
 }
 
-/* line 14, ../../sass/custom/buildingblocks/_sectionheader.scss */
 .mx-layoutgrid-fluid .sectionheader-title {
-  color: #fff;
-  /* Styles here */
+    /* color:#fff;
+	Styles here */
 }
 
-/* line 19, ../../sass/custom/buildingblocks/_sectionheader.scss */
 .mx-layoutgrid-fixed .sectionheader-title, .mx-layoutgrid-fixed .sectionheader {
-  color: #000;
-  /* Styles here */
+    /* color:#000;
+	Styles here */
 }
 
-/* line 23, ../../sass/custom/buildingblocks/_sectionheader.scss */
 .sectionheader-subtitle {
-  color: rgba(0, 180, 255, 0.8);
-  text-transform: none;
-  /* Styles here */
+    /* color: rgba($color-primary, .8);
+    text-transform: none;
+	Styles here */
 }
 
-/* line 28, ../../sass/custom/buildingblocks/_sectionheader.scss */
 .sectionheader-avatar {
   /* Styles here */
 }
@@ -1265,50 +1008,40 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Profile Card
 ========================================================================== */
-/* line 4, ../../sass/custom/buildingblocks/_profilecard.scss */
 .profilecard {
   /* Styles here */
 }
-/* line 6, ../../sass/custom/buildingblocks/_profilecard.scss */
 .profilecard .profilecard-contentwrapper {
   /* Styles here */
 }
-/* line 9, ../../sass/custom/buildingblocks/_profilecard.scss */
 .profilecard .profilecard-imgwrapper {
   /* Styles here */
 }
-/* line 12, ../../sass/custom/buildingblocks/_profilecard.scss */
 .profilecard .profilecard-actionwrapper {
   /* Styles here */
 }
-/* line 17, ../../sass/custom/buildingblocks/_profilecard.scss */
 .profilecard .profilecard-contentwrapper,
 .profilecard .profilecard-imgwrapper,
 .profilecard .profilecard-actionwrapper {
   /* Styles here */
 }
 
-/* line 21, ../../sass/custom/buildingblocks/_profilecard.scss */
 .profilecard-btn {
   /* Styles here */
 }
 
-/* line 24, ../../sass/custom/buildingblocks/_profilecard.scss */
 .profilecard-img {
   /* Styles here */
 }
 
-/* line 27, ../../sass/custom/buildingblocks/_profilecard.scss */
 .profilecard-title {
   /* Styles here */
 }
 
-/* line 30, ../../sass/custom/buildingblocks/_profilecard.scss */
 .profilecard-subtitle {
   /* Styles here */
 }
 
-/* line 33, ../../sass/custom/buildingblocks/_profilecard.scss */
 .pageheader .profilecard {
   /* Styles here */
 }
@@ -1316,15 +1049,12 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Profile Header
 ========================================================================== */
-/* line 4, ../../sass/custom/buildingblocks/_profileheader.scss */
 .profileheader {
   /* Styles here */
 }
-/* line 6, ../../sass/custom/buildingblocks/_profileheader.scss */
 .profileheader .profileheader-content {
   /* Styles here */
 }
-/* line 10, ../../sass/custom/buildingblocks/_profileheader.scss */
 .profileheader .profileheader-image {
   /* Styles here */
 }
@@ -1334,42 +1064,34 @@ body .mx-header .mx-sidebartoggle {
 
    Used in Website page templates
 ========================================================================== */
-/* line 6, ../../sass/custom/buildingblocks/_products.scss */
 .product-header {
   /* Styles here */
 }
 
-/* line 9, ../../sass/custom/buildingblocks/_products.scss */
 .product-content {
   /* Styles here */
 }
 
-/* line 12, ../../sass/custom/buildingblocks/_products.scss */
 .product-title {
   /* Styles here */
 }
 
-/* line 15, ../../sass/custom/buildingblocks/_products.scss */
 .product-subtitle {
   /* Styles here */
 }
 
-/* line 18, ../../sass/custom/buildingblocks/_products.scss */
 .product-btn {
   /* Styles here */
 }
 
-/* line 6, ../../sass/custom/buildingblocks/_section.scss */
 .section {
   /* Styles here */
 }
 
-/* line 15, ../../sass/custom/buildingblocks/_section.scss */
 .profile-phone .section {
   /* Styles here */
 }
 
-/* line 18, ../../sass/custom/buildingblocks/_section.scss */
 .profile-tablet .section {
   /* Styles here */
 }
@@ -1377,27 +1099,22 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Sidebar Header
 ========================================================================== */
-/* line 4, ../../sass/custom/buildingblocks/_sidebarheader.scss */
 .sidebarheader {
   /* Styles here */
 }
 
-/* line 7, ../../sass/custom/buildingblocks/_sidebarheader.scss */
 .sidebarheader-content {
   /* Styles here */
 }
 
-/* line 10, ../../sass/custom/buildingblocks/_sidebarheader.scss */
 .sidebarheader-img {
   /* Styles here */
 }
 
-/* line 13, ../../sass/custom/buildingblocks/_sidebarheader.scss */
 .sidebarheader-title {
   /* Styles here */
 }
 
-/* line 16, ../../sass/custom/buildingblocks/_sidebarheader.scss */
 .sidebarheader-subtitle {
   /* Styles here */
 }
@@ -1405,15 +1122,12 @@ body .mx-header .mx-sidebartoggle {
 /* ==========================================================================
    Tabs full width
 ========================================================================== */
-/* line 4, ../../sass/custom/buildingblocks/_tabsfullwidth.scss */
 .tabsfullwidth {
   /* Styles here */
 }
-/* line 6, ../../sass/custom/buildingblocks/_tabsfullwidth.scss */
 .tabsfullwidth > .mx-tabcontainer-tabs {
   /* Styles here */
 }
-/* line 12, ../../sass/custom/buildingblocks/_tabsfullwidth.scss */
 .tabsfullwidth > .mx-tabcontainer-content {
   /* Styles here */
 }
@@ -1423,46 +1137,37 @@ body .mx-header .mx-sidebartoggle {
 
    Styling for Wizard (Steps/Numbers)
 ========================================================================== */
-/* line 6, ../../sass/custom/buildingblocks/_wizard.scss */
 .wizard {
   /* Wizard line between steps */
 }
-/* line 8, ../../sass/custom/buildingblocks/_wizard.scss */
 .wizard:before {
   /* Styles here */
 }
 
-/* line 12, ../../sass/custom/buildingblocks/_wizard.scss */
 .wizard-step {
   /* Styles here */
 }
 
-/* line 15, ../../sass/custom/buildingblocks/_wizard.scss */
 .wizard-step-number {
   /* Styles here */
 }
 
-/* line 18, ../../sass/custom/buildingblocks/_wizard.scss */
 .wizard-step-number-active {
   /* Styles here */
 }
 
-/* line 21, ../../sass/custom/buildingblocks/_wizard.scss */
 .wizard-step-number-visited {
   /* Styles here */
 }
 
-/* line 24, ../../sass/custom/buildingblocks/_wizard.scss */
 .wizard-step-title {
   /* Styles here */
 }
 
 /* Phone Specific Styling */
-/* line 30, ../../sass/custom/buildingblocks/_wizard.scss */
 .profile-phone .wizard:before {
   /* Styles here */
 }
-/* line 33, ../../sass/custom/buildingblocks/_wizard.scss */
 .profile-phone .wizard .wizard-step-number {
   /* Styles here */
 }
@@ -1472,36 +1177,28 @@ body .mx-header .mx-sidebartoggle {
 
    Profile card styled for templategrid
 ========================================================================== */
-/* line 6, ../../sass/custom/buildingblocks/templategrid/_templategrid-profilecard.scss */
 .templategrid-profilecard {
   /* Styles here */
 }
-/* line 8, ../../sass/custom/buildingblocks/templategrid/_templategrid-profilecard.scss */
 .templategrid-profilecard .templategrid-profilecard-contentwrapper {
   /* Styles here */
 }
-/* line 11, ../../sass/custom/buildingblocks/templategrid/_templategrid-profilecard.scss */
 .templategrid-profilecard .templategrid-profilecard-imgwrapper {
   /* Styles here */
 }
-/* line 15, ../../sass/custom/buildingblocks/templategrid/_templategrid-profilecard.scss */
 .templategrid-profilecard .templategrid-profilecard-contentwrapper,
 .templategrid-profilecard .templategrid-profilecard-imgwrapper {
   /* Styles here */
 }
-/* line 18, ../../sass/custom/buildingblocks/templategrid/_templategrid-profilecard.scss */
 .templategrid-profilecard .templategrid-profilecard-btn {
   /* Styles here */
 }
-/* line 21, ../../sass/custom/buildingblocks/templategrid/_templategrid-profilecard.scss */
 .templategrid-profilecard .templategrid-profilecard-img {
   /* Styles here */
 }
-/* line 24, ../../sass/custom/buildingblocks/templategrid/_templategrid-profilecard.scss */
 .templategrid-profilecard .templategrid-profilecard-title {
   /* Styles here */
 }
-/* line 27, ../../sass/custom/buildingblocks/templategrid/_templategrid-profilecard.scss */
 .templategrid-profilecard .templategrid-profilecard-subtitle {
   /* Styles here */
 }

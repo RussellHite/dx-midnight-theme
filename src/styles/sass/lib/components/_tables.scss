@@ -3,7 +3,9 @@
 
    Default Mendix Table Widget. Tables can be used to lend structure to a page. They contain a number of rows (tr) and columns, the intersection of which is called a cell (td). Each cell can contain widgets
 ========================================================================== */
-th { @include font(bold);}
+th { 
+    font-weight: 600;
+}
 table.mx-table {
 	> tbody {
 
@@ -12,11 +14,11 @@ table.mx-table {
 
 			/* Table header */
 			> th {
-				padding: $padding-table-cell-top $padding-table-cell-right $padding-table-cell-bottom $padding-table-cell-left;
+				padding: 8px;
 				* { 
-					@include font(bold); 
-					color: $color-label;
-					font-weight: $font-weight-label;
+					font-weight: 600; 
+					color: lighten($color-dark, 40%);
+					font-weight: 400;
 				}
 				> label { 
 					padding-top: 7px;
@@ -26,7 +28,7 @@ table.mx-table {
 			
 			/* Table cells */
 			> td {
-				padding: $padding-table-cell-top $padding-table-cell-right $padding-table-cell-bottom $padding-table-cell-left;
+				padding: 8px;
 				> div > label,
 				.mx-referenceselector-input-wrapper label { 
 					padding-top: 7px;
@@ -44,7 +46,7 @@ table.mx-table {
 		> tr {
 			> th,
 			> td {
-				padding: $padding-table-cell-top $padding-table-cell-right $padding-table-cell-bottom $padding-table-cell-left;
+				padding: 8px;
 			}
 		}
 	}
@@ -57,7 +59,7 @@ table.mx-table {
 		> tr {
 			> th,
 			> td {
-				padding: $padding-table-cell-top $padding-table-cell-right $padding-table-cell-bottom $padding-table-cell-left;
+				padding:8px;
 			}
 		}
 	}
@@ -81,7 +83,7 @@ table.table-lined.mx-table {
 			> td {
 				border-width: 1px 0;
 				border-style: solid;
-				border-color: $color-grid-border;
+				border-color: $gray-primary;
 			}
 		}
 	}
@@ -105,7 +107,7 @@ table.table-bordered.mx-table {
 			> td {
 				border-width: 1px;
 				border-style: solid;
-				border-color: $color-grid-border;
+				border-color: $gray-primary;
 			}
 		}
 	}

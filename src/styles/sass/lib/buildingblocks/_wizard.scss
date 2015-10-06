@@ -40,13 +40,13 @@
     
 }
 .wizard-step-number {
-	@include font(bold);
+	font-weight: 600;
 	border-radius: 50%;
 	font-size: 20px;
 	width: 72px;
 	height: 72px;
 	color: $gray-primary;
-	border: 2px solid $color-border-default;
+	border: 2px solid $gray-primary;
 	background-color: #FFF;
 
 	// Labels and buttons

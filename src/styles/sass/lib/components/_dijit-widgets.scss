@@ -33,7 +33,7 @@
 			text-align: center;
 		}
 		td .dijitCalendarDateLabel {
-			color: $font-color-base;
+			color: $color-dark
 		}
 		tfoot h3 {
 			margin: 0;
@@ -43,7 +43,8 @@
 	}
 
 	.dijitCalendarMonthLabel {
-		@include font(bold);
+        font-weight: 600;
+        font-family: $font-primary;
 	}
 	.dijitButtonNode {
 		border: 0;
@@ -65,9 +66,10 @@
 		background-color: #dbdcdd;
 	}
 	.dijitCalendarYearContainer td {
-		@include font(bold);
+		font-weight: 600;
+        font-family: $font-primary;
 		border-bottom-radius: 3px;
-		border-top: 1px solid $color-border-default;
+		border-top: 1px solid $gray-primary;
 		text-align: center;
 	}
 	.dijitCalendarMonthContainer th:first-child {
@@ -272,7 +274,8 @@
         // New label
         .tg_newlabelmenuitem {
             .dijitMenuItemLabel {
-                @include font(bold);
+                font-weight: 600;
+                font-family: $font-primary;
             }
         }
 

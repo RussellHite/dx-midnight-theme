@@ -10,14 +10,15 @@
 	.mx-navigationlist-item {
 		padding: 15px 20px 15px 16px;
 		border-left: 4px solid transparent;
-		border-bottom: 1px solid $color-navsidebar-border;
+		border-bottom: 1px solid $color-inverse;
 		border-top: none;
 		border-radius: 0;
-		background-color: $color-navsidebar-bg;
+		background-color: $color-inverse;
 		label {
-			@include font(normal);
+			font-weight: 400;
+            font-family: $font-primary;
 			color: $color-primary;
-			font-size: $font-navsidebar-size;
+			font-size: 12px;
 		}
 		&:hover,
 		&:focus,
@@ -28,7 +29,7 @@
 			}
 		}
 		&.active {
-           	border-left-color: $color-navsidebar-text-active;
+           	border-left-color: $color-light;
            	color: $color-light;
            	background-color: $color-primary;
         }
@@ -43,7 +44,7 @@
 // ========================================================================== */
 // .navigationlist-lined.mx-navigationlist {
 // 	.mx-navigationlist-item {
-// 		border-top: 1px solid $color-grid-border;
+// 		border-top: 1px solid $gray-primary;
 // 		border-right: none;
 // 		border-left: none;
 
@@ -52,7 +53,7 @@
 // 		}
 // 		&:last-child {
 // 			border-radius: 0;
-// 			border-bottom: 1px solid $color-grid-border;
+// 			border-bottom: 1px solid $gray-primary;
 // 		}
 // 	}
 // }

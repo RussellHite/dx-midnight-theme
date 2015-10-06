@@ -1,8 +1,12 @@
-@import "../custom/custom-variables";
+//@import "../custom/custom-variables";
 
 // Base
 @import "base/variables";
-@import "base/mixins";
+//Mixins
+@import "base/mixins/arrow";
+@import "base/mixins/buttons";
+@import "base/mixins/default-spacing";
+@import "base/mixins/groupbox";
 @import "base/reset";
 @import "base/base";
 

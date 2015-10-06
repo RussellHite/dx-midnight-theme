@@ -4,14 +4,15 @@
    Default settings
 ========================================================================== */
 body {
-	@include font(normal);
-	color: $font-color-base;
-	font-size: $font-size-base;
+    font-weight: 400;
+    font-family: $font-primary;
+	color: $color-dark;
+	font-size: 14px;
 	line-height: $line-height-base;
-	background-color: $color-layout-bg;
+	background-color: $color-light;
 }
 a {
-	color: $color-link;
+	color: $color-primary;
 	-webkit-transition: 0.25s;
 	-moz-transition: 0.25s;
 	-o-transition: 0.25s;
@@ -20,7 +21,7 @@ a {
 }
 a:hover {
 	text-decoration: underline;
-	color: $color-link-hover;
+	color: $color-primary-dark;
 }
 // Address `outline` inconsistency between Chrome and other browsers.
 a:focus {

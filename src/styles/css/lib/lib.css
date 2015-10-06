@@ -27,15 +27,15 @@
 }
 
 .mx-layoutcontainer .mx-layoutcontainer-wrapper {
-  padding: 0px;
+  padding: 0;
 }
 
 .profile-tablet .mx-layoutcontainer .mx-layoutcontainer-wrapper {
-  padding: 0px;
+  padding: 0;
 }
 
 .profile-phone .mx-layoutcontainer .mx-layoutcontainer-wrapper {
-  padding: 0px;
+  padding: 0;
 }
 
 .mx-layoutcontainer .mx-placeholder {
@@ -144,7 +144,8 @@
    Default settings
 ========================================================================== */
 body {
-  font-weight: normal;
+  font-weight: 400;
+  font-family: "roboto", Helvetica, Arial, sans-serif;
   color: black;
   font-size: 14px;
   line-height: 1.42857;
@@ -162,7 +163,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #007eb3;
+  color: #0085bc;
 }
 
 a:focus {
@@ -239,7 +240,7 @@ textarea.form-control, textarea.readonly-input {
 .readonly-input {
   height: auto;
   min-height: 33px;
-  background-color: #eeeeee !important;
+  background-color: #cbd2d9 !important;
 }
 .readonly-input label {
   padding: 0 !important;
@@ -500,7 +501,7 @@ textarea.form-control, textarea.readonly-input {
   transition: all .2s ease-in-out;
   border-radius: 100px;
   box-shadow: none;
-  padding: 8px 14px;
+  padding: 7px 12px;
   background-color: #102842;
   color: white;
   text-shadow: none;
@@ -530,7 +531,7 @@ textarea.form-control, textarea.readonly-input {
 .mx-button img,
 .mx-link img {
   margin-top: -1px;
-  height: 18px;
+  height: 16px;
 }
 
 .dj_ie8 .mx-link {
@@ -771,7 +772,7 @@ textarea.form-control, textarea.readonly-input {
 }
 .btn-link:hover {
   background-color: transparent;
-  color: #007eb3;
+  color: #0085bc;
 }
 
 /* Buttons appear disabled */
@@ -795,15 +796,15 @@ textarea.form-control, textarea.readonly-input {
   padding: 11px 18px;
 }
 .btn-lg img {
-  height: 18px;
+  height: 16px;
 }
 
 .btn-sm {
-  font-size: 12px;
-  padding: 7px 12px;
+  font-size: 10px;
+  padding: 6px 10px;
 }
 .btn-sm img {
-  height: 16px;
+  height: 14px;
 }
 
 /* Buttons Image */
@@ -941,15 +942,16 @@ textarea.form-control, textarea.readonly-input {
   border-top-width: 0;
   border-bottom-width: 2px;
   border-style: solid;
-  border-color: #dddddd;
+  border-color: transparent;
   background-color: transparent;
 }
 .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper {
-  padding: 8px 8px 8px 8px;
+  padding: 8px;
   vertical-align: middle;
 }
 .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper .mx-datagrid-head-caption {
   white-space: normal;
+  font-size: 11px;
 }
 .mx-datagrid .mx-datagrid-body-table {
   border-width: 0;
@@ -957,7 +959,7 @@ textarea.form-control, textarea.readonly-input {
   /* Table Footer */
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
-  padding: 8px 8px 8px 8px;
+  padding: 8px;
   background-color: white;
   border-width: 0;
   border-top-width: 1px;
@@ -1006,7 +1008,7 @@ textarea.form-control, textarea.readonly-input {
   border-top-width: 0;
 }
 .datagrid-striped.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:nth-child(odd) td {
-  background-color: #eaeaea;
+  background-color: #dddddd;
 }
 
 /* ==========================================================================
@@ -1172,7 +1174,8 @@ textarea.form-control, textarea.readonly-input {
   font-size: inherit;
 }
 .dijitCalendarContainer .dijitCalendarMonthLabel {
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "roboto", Helvetica, Arial, sans-serif;
 }
 .dijitCalendarContainer .dijitButtonNode {
   border: 0;
@@ -1194,7 +1197,8 @@ textarea.form-control, textarea.readonly-input {
   background-color: #dbdcdd;
 }
 .dijitCalendarContainer .dijitCalendarYearContainer td {
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "roboto", Helvetica, Arial, sans-serif;
   border-bottom-radius: 3px;
   border-top: 1px solid #dddddd;
   text-align: center;
@@ -1372,7 +1376,8 @@ textarea.form-control, textarea.readonly-input {
   background: #00b4ff;
 }
 .dijitMenuPopup .dijitMenu .tg_newlabelmenuitem .dijitMenuItemLabel {
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "roboto", Helvetica, Arial, sans-serif;
 }
 .dijitMenuPopup .dijitMenu .dijitMenuSeparator td {
   padding: 0;
@@ -1406,7 +1411,8 @@ textarea.form-control, textarea.readonly-input {
    Default Mendix Groupboxes
 ========================================================================== */
 .mx-groupbox > .mx-groupbox-header {
-  font-weight: bold;
+  font-family: "roboto", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   border-radius: 0;
   margin: 0;
   background: #102842;
@@ -1505,7 +1511,7 @@ textarea.form-control, textarea.readonly-input {
 ========================================================================== */
 .mx-groupbox.groupbox-default > .mx-groupbox-header {
   background: #102842;
-  color: white;
+  color: black;
   border-color: #102842;
 }
 .mx-groupbox.groupbox-default > .mx-groupbox-body {
@@ -1614,7 +1620,7 @@ textarea.form-control, textarea.readonly-input {
   font-size: 16px;
 }
 .mx-groupbox.groupbox-h6 > .mx-groupbox-header {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* ==========================================================================
@@ -1782,7 +1788,8 @@ img.img-auto,
    Default labels combined with Bootstrap labels
 ========================================================================== */
 .label {
-  font-weight: bold;
+  font-family: "roboto", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   border-radius: .25em;
   display: inline;
   padding: .2em .6em .3em !important;
@@ -1951,7 +1958,7 @@ img.img-auto,
   border-bottom-color: #dddddd;
 }
 .modal-dialog .modal-content .modal-header h4 {
-  font-weight: bold;
+  font-family: 600;
   color: black;
   font-size: 16px;
   margin: 0;
@@ -2021,7 +2028,7 @@ img.img-auto,
 }
 .mx-login h4 {
   color: #aaa;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
 }
 
@@ -2048,7 +2055,7 @@ img.img-auto,
   border-radius: 0;
   padding: 15px 20px;
   color: #00b4ff;
-  font-size: 14px;
+  font-size: 12px;
   vertical-align: middle;
   /* Dropdown arrow */
   /* Dropdown */
@@ -2078,7 +2085,7 @@ img.img-auto,
   height: 0;
   border-width: 0 9px 9px 9px;
   border-style: solid;
-  border-color: transparent transparent #00a6eb transparent;
+  border-color: transparent transparent #00b4ff transparent;
   content: "";
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
@@ -2129,11 +2136,12 @@ img.img-auto,
     padding: 0;
   }
   .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a {
-    font-weight: normal;
+    font-family: "roboto", Helvetica, Arial, sans-serif;
+    font-weight: 400;
     padding: 10px 20px;
     border-radius: 0;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
   }
   .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:hover, .mx-navbar .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem > a:focus {
     color: white;
@@ -2172,16 +2180,20 @@ img.img-auto,
   border-bottom: 2px solid #133150;
 }
 .mx-navigationtree .navbar-inner ul li a {
-  font-weight: normal;
+  font-family: "roboto", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   display: block;
-  padding: 15px 20px 15px 16px;
+  padding: 20px;
+  border: 0;
   border-radius: 0;
   color: #00b4ff;
   text-shadow: none;
   font-size: 14px;
   vertical-align: middle;
   background-color: #102842;
-  border-left: 4px solid transparent;
+}
+.mx-navigationtree .navbar-inner ul li a .glyphicon {
+  margin-right: 0.3em;
 }
 .mx-navigationtree .navbar-inner ul li a .caret {
   border-top-color: #00b4ff;
@@ -2218,28 +2230,30 @@ img.img-auto,
 .mx-navigationtree li.mx-navigationtree-has-items > ul {
   margin: 0;
   padding-left: 0;
-  background-color: #0f2740;
+  background-color: #133150;
 }
 .mx-navigationtree li.mx-navigationtree-has-items > ul li {
   margin: 0;
   padding: 0;
 }
 .mx-navigationtree li.mx-navigationtree-has-items > ul li a {
-  font-weight: normal;
+  font-family: "roboto", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 12px;
-  background-color: #0f2740;
+  font-size: 10px;
+  background-color: #133150;
   padding: 12px 20px 12px 25px;
   border: 0;
+  padding: 15px 40px;
 }
 .mx-navigationtree li.mx-navigationtree-has-items > ul li a:hover, .mx-navigationtree li.mx-navigationtree-has-items > ul li a:focus, .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   color: white;
-  background-color: #0f2740;
+  background-color: #133150;
 }
 .mx-navigationtree li.mx-navigationtree-has-items > ul li a.active {
   border: 0;
   color: white;
-  background-color: #0f2740;
+  background-color: #133150;
 }
 .mx-navigationtree:focus {
   outline: 0;
@@ -2287,7 +2301,7 @@ img.img-auto,
   font-weight: 400;
   border-radius: 0;
   color: #00b4ff;
-  font-size: 12px;
+  font-size: 10px;
   padding: 0 8px;
   text-align: center;
   line-height: 50px;
@@ -2297,7 +2311,7 @@ img.img-auto,
 }
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item a .glyphicon {
   vertical-align: middle;
-  font-size: 1.2em;
+  font-size: 1.3em;
   top: -1px;
 }
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:hover,
@@ -2343,8 +2357,8 @@ img.img-auto,
 }
 .mx-menubar-vertical ul.mx-menubar-list li.mx-menubar-item a {
   color: white;
-  font-size: 14px;
-  border-bottom: 1px solid #00a6eb;
+  font-size: 12px;
+  border-bottom: 1px solid #00b4ff;
 }
 .mx-menubar-vertical ul.mx-menubar-list li.mx-menubar-item a .glyphicon {
   vertical-align: middle;
@@ -2373,15 +2387,16 @@ img.img-auto,
 .mx-navigationlist .mx-navigationlist-item {
   padding: 15px 20px 15px 16px;
   border-left: 4px solid transparent;
-  border-bottom: 1px solid #173b60;
+  border-bottom: 1px solid #133150;
   border-top: none;
   border-radius: 0;
   background-color: #133150;
 }
 .mx-navigationlist .mx-navigationlist-item label {
-  font-weight: normal;
+  font-weight: 400;
+  font-family: "roboto", Helvetica, Arial, sans-serif;
   color: #00b4ff;
-  font-size: 14px;
+  font-size: 12px;
 }
 .mx-navigationlist .mx-navigationlist-item:hover, .mx-navigationlist .mx-navigationlist-item:focus, .mx-navigationlist .mx-navigationlist-item.active {
   background-color: #00b4ff;
@@ -2406,13 +2421,13 @@ img.img-auto,
   border-color: #dddddd;
 }
 .mx-tabcontainer .mx-tabcontainer-tabs > li > a {
-  font-weight: normal;
+  font-weight: 400;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   margin-right: 6px;
-  color: #666666;
+  color: white;
   border-radius: 0;
 }
 .mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
@@ -2439,7 +2454,7 @@ img.img-auto,
   border-radius: 30px;
   margin-right: 6px;
   border: 1px solid #dddddd;
-  color: #666666;
+  color: #555555;
 }
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
   background-color: #ccf0ff;
@@ -2472,7 +2487,7 @@ img.img-auto,
   border-color: transparent;
   border-bottom-width: 3px;
   border-radius: 0;
-  color: #666666;
+  color: white;
 }
 .tab-lined.mx-tabcontainer .mx-tabcontainer-tabs li > a:hover, .tab-lined.mx-tabcontainer .mx-tabcontainer-tabs li > a:focus {
   border: 0;
@@ -2545,7 +2560,7 @@ img.img-auto,
    Default Mendix Table Widget. Tables can be used to lend structure to a page. They contain a number of rows (tr) and columns, the intersection of which is called a cell (td). Each cell can contain widgets
 ========================================================================== */
 th {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 table.mx-table > tbody {
@@ -2556,19 +2571,19 @@ table.mx-table > tbody > tr {
   /* Table cells */
 }
 table.mx-table > tbody > tr > th {
-  padding: 8px 8px 8px 8px;
+  padding: 8px;
 }
 table.mx-table > tbody > tr > th * {
-  font-weight: bold;
+  font-weight: 600;
   color: #666666;
-  font-weight: normal;
+  font-weight: 400;
 }
 table.mx-table > tbody > tr > th > label {
   padding-top: 7px;
   padding-bottom: 6px;
 }
 table.mx-table > tbody > tr > td {
-  padding: 8px 8px 8px 8px;
+  padding: 8px;
 }
 table.mx-table > tbody > tr > td > div > label,
 table.mx-table > tbody > tr > td .mx-referenceselector-input-wrapper label {
@@ -2579,13 +2594,13 @@ table.mx-table > tbody > tr > td .mx-referenceselector-input-wrapper label {
 /* Default Mendix Table Widget inside TemplateGrid */
 .mx-templategrid table.mx-table > tbody > tr > th,
 .mx-templategrid table.mx-table > tbody > tr > td {
-  padding: 8px 8px 8px 8px;
+  padding: 8px;
 }
 
 /* Default Mendix Table Widget inside Listview */
 .mx-list table.mx-table > tbody > tr > th,
 .mx-list table.mx-table > tbody > tr > td {
-  padding: 8px 8px 8px 8px;
+  padding: 8px;
 }
 
 /* ==========================================================================
@@ -2738,7 +2753,7 @@ table.table-fixed {
 }
 .mx-templategrid .mx-templategrid-item {
   background-color: white;
-  padding: 8px 8px 8px 8px;
+  padding: 8px;
   cursor: default;
 }
 .mx-templategrid .mx-templategrid-item:hover {
@@ -2885,7 +2900,7 @@ h5, .h5, .h5 > * {
 }
 
 h6, .h6, .h6 > * {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "roboto", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
@@ -2901,7 +2916,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .text-normal, .text-normal > *, .text-normal label {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .text-semibold, .text-semibold > *, .text-semibold label {
@@ -2909,7 +2924,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .text-bold, .text-bold > *, .text-bold label {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* ==========================================================================
@@ -3018,6 +3033,10 @@ h1, h2, h3, h4, h5, h6,
 
 .text-white-hint {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.d-text h3, .d-text div {
+  color: #000;
 }
 
 /*
@@ -3166,7 +3185,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .card-link {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 /* ==========================================================================
@@ -3191,7 +3210,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .dashboardcard-link {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 @media only screen and (max-width: 960px) {
@@ -3260,7 +3279,7 @@ h1, h2, h3, h4, h5, h6,
 .form-group .control-label {
   margin-bottom: 5px;
   color: #666666;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .form-footer {
@@ -3290,7 +3309,7 @@ h1, h2, h3, h4, h5, h6,
    Master Detail Listview
 ========================================================================== */
 .masterdetail-listview {
-  background-color: #eff4f7;
+  background-color: #EFF4F7;
   height: 100%;
 }
 .masterdetail-listview .mx-listview {
@@ -3435,16 +3454,28 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 20px;
   border-bottom: 2px solid rgba(0, 180, 255, 0.5);
   padding-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .sectionheader-title {
   margin-top: 0;
   margin-bottom: 10px;
+  color: white;
+}
+
+.mx-layoutgrid-fluid .sectionheader-title {
+  color: #fff;
+}
+
+.mx-layoutgrid-fixed .sectionheader-title, .mx-layoutgrid-fixed .sectionheader {
+  color: #000;
 }
 
 .sectionheader-subtitle {
-  color: #666666;
   margin-bottom: 10px;
+  color: rgba(0, 180, 255, 0.8);
+  text-transform: none;
 }
 
 .sectionheader-avatar {
@@ -3560,7 +3591,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .sidebarheader-subtitle {
-  color: #666666;
+  color: #999999;
 }
 
 /* ==========================================================================
@@ -3630,7 +3661,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .wizard-step-number {
-  font-weight: bold;
+  font-weight: 600;
   border-radius: 50%;
   font-size: 20px;
   width: 72px;
@@ -4152,18 +4183,35 @@ body .mx-header .btn-image.glyphicon {
    Used for navigation layouts
 ========================================================================== */
 .region-topbar {
-  min-height: 60px;
   border-bottom: 1px solid #dddddd;
   background-color: #102842;
-  border-bottom-color: #0085bc;
+  border-bottom-color: #102842;
+  min-height: 60px;
+}
+.region-topbar .mx-layoutcontainer-wrapper .mx-navbar ul.nav > li.mx-navbar-item > a {
+  color: white;
+}
+.region-topbar .mx-layoutcontainer-wrapper .navbar-brand img {
+  height: 26px;
+  margin-top: -5px;
+  margin-right: 5px;
+}
+.region-topbar .mx-layoutcontainer-wrapper .mx-navbar ul.nav > li.mx-navbar-item > a {
+  padding: 20px;
 }
 .region-topbar > .mx-layoutcontainer-wrapper {
   padding: 0;
 }
 .region-topbar .toggle-btn {
-  font-size: 16px;
+  color: white;
+  background: #00b4ff;
+  border: none;
   float: left;
-  margin: 20px 15px 0 0;
+  font-size: 14px;
+  margin: 11px 10px 0 0;
+}
+.region-topbar .toggle-btn:focus {
+  background: #0085bc;
 }
 .region-topbar .navbar-right {
   min-height: 60px;
@@ -4171,7 +4219,7 @@ body .mx-header .btn-image.glyphicon {
 .region-topbar .navbar-right .mx-appswitcher-button-placeholder,
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder {
   display: inline-block;
-  border-left: 1px solid #dddddd;
+  border: 0;
   width: 60px;
   height: 60px;
   position: relative;
@@ -4250,17 +4298,17 @@ body .mx-header .btn-image.glyphicon {
 ========================================================================== */
 .navbar-brand {
   display: block;
-  min-height: 80px;
   float: left;
-  padding: 22px 0;
+  min-height: 60px;
+  padding: 21px 5px;
 }
 .navbar-brand img {
   height: 37px;
   display: inline-block;
 }
 .navbar-brand a {
-  font-size: 20px;
-  color: black;
+  color: white;
+  font-size: 18px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;

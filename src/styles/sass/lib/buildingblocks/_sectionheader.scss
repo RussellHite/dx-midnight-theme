@@ -5,17 +5,27 @@
 	margin-bottom: 20px;
 	border-bottom: 2px solid rgba($color-primary, .5);
 	padding-bottom: 10px;
+    text-transform: uppercase;
+    color:#fff;
 }
 .sectionheader-title {
 	margin-top: 0;
 	margin-bottom: 10px;
+    color:$color-light;
+}
+.mx-layoutgrid-fluid .sectionheader-title {
+    color:#fff;
+}
+.mx-layoutgrid-fixed .sectionheader-title, .mx-layoutgrid-fixed .sectionheader{
+    color:#000;
 }
 .sectionheader-subtitle {
-	color: $color-text-black-secondary;
 	margin-bottom: 10px;
+    color: rgba($color-primary, .8);
+    text-transform: none;
 }
 .sectionheader-avatar {
 	padding: 4px;
-	border: 2px solid $color-border-default;
+	border: 2px solid $gray-primary;
 	background-color: #FFF;
 }

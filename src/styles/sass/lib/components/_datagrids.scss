@@ -15,15 +15,16 @@
 			border-top-width: 0;
 			border-bottom-width: 2px;
 			border-style: solid;
-			border-color: $color-grid-border;
-			background-color: $color-grid-bg-header;
+			border-color: transparent;
+			background-color: transparent;
 		}
 
 		.mx-datagrid-head-wrapper {
-			padding: $padding-table-cell-top $padding-table-cell-right $padding-table-cell-bottom $padding-table-cell-left;
+			padding: 8px;
 			vertical-align: middle;
 			.mx-datagrid-head-caption {
 				white-space: normal;
+                font-size: 11px;
 			}
 		}
 	}
@@ -33,12 +34,12 @@
 		/* Table Body */
 		.mx-datagrid-body tr {
 			td {
-				padding: $padding-table-cell-top $padding-table-cell-right $padding-table-cell-bottom $padding-table-cell-left;
-				background-color: $color-grid-bg;
+				padding: 8px;
+				background-color: $color-light;
 				border-width: 0;
 				border-top-width: 1px;
 				border-top-style: solid;
-				border-color: $color-grid-border;
+				border-color: $gray-primary;
 
 				&:focus {
 					outline: none;
@@ -53,7 +54,7 @@
 			}
 			&.selected td,
 			&.selected:hover td {
-				background-color: $color-grid-bg-selected !important;
+				background-color: $color-primary !important;
 				color: $color-default;
 			}
 		}
@@ -63,12 +64,12 @@
 
 			> tr > th {
 				padding: 1px;
-				background-color: $color-grid-footer-bg; 
+				background-color: $gray-primary; 
 				border-width: 0;
 			}
 
 			> tr > td {
-				background-color: $color-grid-bg;
+				background-color: $color-light;
 				border-width: 0;
 			}
 		}
@@ -99,7 +100,7 @@
 				border-top-width: 0;
 			}
 			&:nth-child(odd) td {
-				background-color: $color-grid-bg-striped;
+				background-color: $gray-primary;
 			}
 		}
 	}
@@ -114,7 +115,7 @@
 .datagrid-bordered.mx-datagrid {
 	.mx-datagrid-head-table {
 		th { 
-			border: 1px solid $color-grid-border;
+			border: 1px solid $gray-primary;
 			border-bottom-width: 1px; 
 		}
 		.mx-datagrid-head-wrapper {
@@ -125,14 +126,14 @@
 		border: 1px solid;
 		.mx-datagrid-body tr {
 			td {
-				border: 1px solid $color-grid-border;
+				border: 1px solid $gray-primary;
 			}
 		}
 	}
 	.mx-datagrid-foot {
 		> tr > th {
 			padding: 1px;
-			background-color: $color-grid-footer-bg; 
+			background-color: $gray-primary; 
 			border-width: 0;
 		}
 		> tr > td {
@@ -152,11 +153,11 @@
 		// Body
 		.mx-datagrid-body tr {
 			&:hover td {
-				background-color: $color-grid-bg-hover !important;
+				background-color: shade($color-primary-lighter,3) !important;
                 color: $color-default;
 			}
 			&.selected:hover td {
-				background-color: $color-grid-bg-selected-hover !important;
+				background-color: shade($color-primary-lighter,3) !important;
                 color: $color-default;
 			}
 		}

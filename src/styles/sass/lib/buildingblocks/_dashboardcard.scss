@@ -4,7 +4,7 @@
 .dashboardcard {
 	padding: 20px;
 	margin: 0 0 40px 0;
-	border: 1px solid $color-border-default;
+	border: 1px solid $gray-primary;
 	background-color: #FFF;
 	border-radius: 0;
 }
@@ -13,11 +13,11 @@
 }
 .dashboardcard-subtitle {
 	font-size: 14px;
-	color: $color-text-black-secondary;
+	color: lighten($color-dark, 40%);
 	margin-bottom: 10px;
 }
 .dashboardcard-link {
-	font-size: $font-size-small;
+	font-size: 10px;
 }
 
 @media only screen and (max-width: 960px) {

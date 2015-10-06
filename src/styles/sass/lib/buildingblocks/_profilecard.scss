@@ -32,7 +32,7 @@
 	border-radius: 50%;
 	margin-right: 40px;
 	padding: 4px;
-	border: 2px solid $color-border-default;
+	border: 2px solid $gray-primary;
 	background-color: #FFF;
 }
 .profilecard-title {
@@ -41,7 +41,7 @@
 	margin-top: 0;
 }
 .profilecard-subtitle {
-	color: $color-text-black-secondary;
+	color: lighten($color-dark, 40%);
 }
 .pageheader .profilecard {
 	margin-bottom: 0;

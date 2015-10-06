@@ -4,41 +4,41 @@
    Used for navigation layouts
 ========================================================================== */
 .region-topbar {
-	  border-bottom-color: $color-default;
-	  min-height: 60px;
+	  /*border-bottom-color: $color-default;
+	  min-height: 60px;*/
 	.mx-layoutcontainer-wrapper {
 		.mx-navbar ul.nav > li.mx-navbar-item > a {
-			color: $color-text-white;
+			//color: $color-light;
 		}
 		.navbar-brand img {
-			height: 26px;
+			/*height: 26px;
 			margin-top: -5px;
-			margin-right: 5px;
+			margin-right: 5px;*/
 		}
 		.mx-navbar ul.nav > li.mx-navbar-item > a {
-			padding: 20px;
+			//padding: 20px;
 		}
 	}
 	.toggle-btn {
-		color: $color-text-white;
+		/*color: $color-light;
         background: $color-primary;
 		border: none;
 		font-size: 14px;
-		margin: 11px 10px 0 0;
+		margin: 11px 10px 0 0;*/
         &:focus{
-          background: $color-primary-dark;  
+          //background: $color-primary-dark;  
             
         }
 	}
 	.navbar-right {
 		.mx-appswitcher-button-placeholder,
 		.mx-profilemenu-button-placeholder {
-			border: 0;
+			//border: 0;
 		}
 		.mx-profilemenu-button-placeholder {
 			iframe {
-				width: 38px !important;
-				height: 38px !important;
+				//width: 38px !important;
+				//height: 38px !important;
 			}
 		}
 	}
@@ -62,13 +62,13 @@
    Used to style your app brand and logo
 ========================================================================== */
 .navbar-brand {
-  	min-height: $minimalheight-topbar;
-	padding: 21px 5px;
+  	/*min-height: $60px;
+	padding: 21px 5px;*/
 	img {
 
 	}
 	a {
-		color: $color-text-white;
-		font-size: 18px;
+		//color: $color-light;
+		//font-size: 18px;
 	}
 }

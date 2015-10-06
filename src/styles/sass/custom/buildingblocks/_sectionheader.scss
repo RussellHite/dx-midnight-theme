@@ -2,28 +2,28 @@
    Section Header
 ========================================================================== */
 .sectionheader {
-    text-transform: uppercase;
+    /* text-transform: uppercase;
     color:#fff;
-	/* Styles here */
+	Styles here */
 }
 .sectionheader-title {
-    color:$color-light;
-	/* Styles here */
+    /* color:$color-light;
+	 Styles here */
 }
 
 .mx-layoutgrid-fluid .sectionheader-title {
-    color:#fff;
-	/* Styles here */
+    /* color:#fff;
+	Styles here */
 }
 
 .mx-layoutgrid-fixed .sectionheader-title, .mx-layoutgrid-fixed .sectionheader{
-    color:#000;
-	/* Styles here */
+    /* color:#000;
+	Styles here */
 }
 .sectionheader-subtitle {
-    color: rgba($color-primary, .8);
+    /* color: rgba($color-primary, .8);
     text-transform: none;
-	/* Styles here */
+	Styles here */
 }
 .sectionheader-avatar {
 	/* Styles here */

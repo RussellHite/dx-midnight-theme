@@ -5,7 +5,7 @@
 ========================================================================== */
 .templategrid-profilecard {
 	padding: 20px;
-	border: 1px solid $color-border-default;
+	border: 1px solid $gray-primary;
 	background-color: #FFF;
 	border-radius: 3px;
 	.templategrid-profilecard-contentwrapper {
@@ -27,7 +27,7 @@
 		border-radius: 50%;
 		margin-right: 40px;
 		padding: 4px;
-		border: 2px solid $color-border-default;
+		border: 2px solid $gray-primary;
 		background-color: #FFF;
 	}
 	.templategrid-profilecard-title {
@@ -36,6 +36,6 @@
 		margin-top: 0;
 	}
 	.templategrid-profilecard-subtitle {
-		color: $color-text-black-secondary;
+		color: lighten($color-dark, 40%);
 	}
 }

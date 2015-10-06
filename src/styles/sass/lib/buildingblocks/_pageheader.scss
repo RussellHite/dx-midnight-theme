@@ -2,7 +2,7 @@
    Page Header
 ========================================================================== */
 .pageheader {
-	border-bottom: 2px solid $color-border-default;
+	border-bottom: 2px solid $gray-primary;
 	@include default-spacing($type: margin, $direction: bottom, $device: responsive);
 }
 

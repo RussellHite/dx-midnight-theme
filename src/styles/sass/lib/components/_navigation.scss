@@ -19,7 +19,7 @@
 			border-radius: 0;
 			padding: 15px 20px;
 			color: $color-primary;
-			font-size: $font-navtopbar-size;
+			font-size: 12px;
 			vertical-align: middle;
 
 			/* Dropdown arrow */
@@ -54,7 +54,7 @@
 				height: 0;
 				border-width: 0 9px 9px 9px;
 				border-style: solid;
-				border-color: transparent transparent $color-navtopbar-border transparent;
+				border-color: transparent transparent $color-primary transparent;
 				content: "";
 				transform: rotate(360deg);
 				-webkit-transform: rotate(360deg);
@@ -68,7 +68,7 @@
 
 			.glyphicon {
 					vertical-align: middle;
-					font-size: $font-navtopbar-glyph-size;
+					font-size: 1.2em;
 					top: -1px;
 				}
 		}
@@ -80,22 +80,22 @@
 		> .mx-navbar-item.open > a, 
 		> .mx-navbar-item.open > a:hover, 
 		> .mx-navbar-item.open > a:focus {
-			background-color: $color-navtopbar-bg-hover;
-			color: $color-navtopbar-text-hover;
+			background-color:darken( $color-primary, 4);
+			color: $color-light;
 			text-decoration: none;
 
 			.caret {
-				border-top-color: $color-navtopbar-text-hover;
-				border-bottom-color: $color-navtopbar-text-hover;
+				border-top-color: $color-light;
+				border-bottom-color: $color-light;
 			}
 		}
 		> .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a {
-			background-color: $color-navtopbar-sub-bg-active;
-			color: $color-navtopbar-sub-text-active;
+			background-color: lighten($color-primary, 4);
+			color: $color-light;
 
 			.caret {
-				border-top-color: $color-navtopbar-sub-text-active;
-				border-bottom-color: $color-navtopbar-sub-text-active;
+				border-top-color: $color-light;
+				border-bottom-color: $color-light;
 			}
         }
 	}
@@ -105,26 +105,27 @@
 			padding: 10px 20px;
 		}
 		.mx-navbar-item.open .dropdown-menu {
-			background-color: $color-navtopbar-sub-bg;
+			background-color: lighten($color-primary, 4);
 			border-radius: 0;
 			padding: 0;
 			
 			> li.mx-navbar-subitem > a {
-				@include font(normal);
+				font-family: $font-primary;
+                font-weight: 400;
 				padding: 10px 20px;
 				border-radius: 0;
-				color: $color-navtopbar-sub-text;
-				font-size: $font-navtopbar-sub-size;
+				color: $color-light;
+				font-size: 10px;
 
 				&:hover,
 				&:focus {
-					color: $color-navtopbar-sub-text-hover;
-					background-color: $color-navtopbar-sub-bg-hover;
+					color: $color-light;
+					background-color: lighten($color-primary, 4);
 				}
 
 				&.active {
-					color: $color-navtopbar-sub-text-active;
-					background-color: $color-navtopbar-sub-bg-active;
+					color: $color-light;
+					background-color: lighten($color-primary, 4);
 				}
 			}
 		}
@@ -161,18 +162,20 @@
             border-bottom: 2px solid $color-inverse;
 
 			a {
-				@include font(normal);
+				font-family: $font-primary;
+                font-weight: 400;
 				display: block;
-				padding: 15px 20px 15px 16px;
-				
+				padding: 20px;
+				border: 0;
 				border-radius: 0;
 				color: $color-primary;
 				text-shadow: none;
-				font-size: $font-navsidebar-size;
+				font-size: 14px;
 				vertical-align: middle;
 				background-color: $color-default;
-				border-left: 4px solid transparent;
-
+                .glyphicon {
+					margin-right: 0.3em;
+				}
 				.caret {
 					border-top-color: $color-primary;
 					border-bottom-color: $color-primary;
@@ -186,7 +189,7 @@
 
 				.glyphicon {
 					vertical-align: middle;
-					font-size: $font-navsidebar-glyph-size;
+					font-size: 1.2em;
 					top: -1px;
 				}
 			}
@@ -205,7 +208,7 @@
 			}
 
             a.active {
-            	border-left-color: $color-navsidebar-text-active;
+            	border-left-color: $color-light;
             	color: $color-light;
             	background-color: $color-primary;
             }
@@ -217,29 +220,30 @@
 		> ul {
 			margin: 0;
 			padding-left: 0;
-			background-color: $color-navsidebar-sub-bg;
+			background-color: $color-inverse;
 
 			li {
 				margin: 0;
 				padding: 0;
 				a {
-					@include font(normal);
-					color: $color-navsidebar-sub-text;
-					font-size: $font-navsidebar-sub-size;
-					background-color: $color-navsidebar-sub-bg;
+					font-family: $font-primary;
+                    font-weight: 400;
+					color: rgba($color-light, .7);
+					font-size: 10px;
+					background-color: $color-inverse;
 					padding: 12px 20px 12px 25px;
 					border: 0;
-
+                    padding: 15px 40px;
 					&:hover,
 					&:focus,
 					&.active {
-						color: $color-navsidebar-sub-text-hover;
-						background-color: $color-navsidebar-sub-bg-hover;
+						color: $color-light;
+						background-color: $color-inverse;
 					}
 					&.active {
 		            	border: 0;
-		            	color: $color-navsidebar-sub-text-active;
-		            	background-color: $color-navsidebar-sub-bg-active;
+		            	color: $color-light;
+		            	background-color: $color-inverse;
 		            }
 				}
 			}
@@ -288,7 +292,7 @@
 ========================================================================== */
 .mx-menubar {
 	padding: 0;
-	background-color: $color-navsidebar-bg;
+	background-color: $color-inverse;
 	ul.mx-menubar-list {
 		width: 100%;
 		height: 50px;
@@ -301,7 +305,7 @@
 				font-weight: 400;
 				border-radius: 0;
 				color: $color-primary;
-				font-size: $font-navsidebar-sub-size;
+				font-size: 10px;
 				padding: 0 8px;
 				text-align: center;
 				line-height: 50px;
@@ -311,7 +315,7 @@
 
 				.glyphicon {
 					vertical-align: middle;
-					font-size: $font-navsidebar-glyph-size;
+					font-size: 1.3em;
 					top: -1px;
 				}
 			}
@@ -374,30 +378,30 @@
 
 /* Vertical variation specifics */
 .mx-menubar-vertical {
-	background-color: $color-navtopbar-bg;
+	background-color: $color-primary;
 	ul.mx-menubar-list {
 		li.mx-menubar-item {
 			a {
-				color: $color-navtopbar-text;
-				font-size: $font-navtopbar-size;
-				border-bottom: 1px solid $color-navtopbar-border;
+				color: $color-light;
+				font-size: 12px;
+				border-bottom: 1px solid $color-primary;
 
 				.glyphicon {
 					vertical-align: middle;
-					font-size: $font-navtopbar-glyph-size;
+					font-size: 1.2em;
 					top: -1px;
 				}
 
 				&:hover,
 				&:focus,
 				&.active {
-					background-color: $color-navtopbar-bg-hover;
-					color: $color-navtopbar-text-hover;
+					background-color:darken($color-primary, 4);
+					color: $color-light;
 					text-decoration: none;
 				}
 				&.active {
-	            	color: $color-navtopbar-text-active;
-	            	background-color: $color-navtopbar-bg-active;
+	            	color: $color-light;
+	            	background-color: darken($color-primary, 8);
 	            }
 			}
 		}

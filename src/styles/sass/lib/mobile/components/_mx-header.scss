@@ -16,9 +16,9 @@
 
 body .mx-header {
 	padding: 0;
-	height: $m-height-header;
-	color: $m-color-header-text;
-	border-bottom: 1px solid $color-border-default;
+	height: 44px;
+	color: $color-light;
+	border-bottom: 1px solid $gray-primary;
 	background-color: $color-default;
 	display: table;
 	width: 100%;
@@ -35,7 +35,7 @@ body .mx-header {
 		top: 0;
 		position: absolute;
 		padding: 0 8px;
-		height: $m-height-header;
+		height: 44px;
 		.mx-placeholder {
 			display: table-cell;
 			vertical-align: middle;
@@ -61,7 +61,7 @@ body .mx-header {
 	// Header Title
 	.mx-title {
 		margin: 0;
-		color: $m-color-header-text;
+		color: $color-light;
 		font-size: 16px;
 		line-height: 44px;
 	

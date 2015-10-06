@@ -7,16 +7,16 @@
 }
 
 .mx-layoutcontainer .mx-layoutcontainer-wrapper {
-	padding: $padding-layoutcontainer-base;
+	padding: 0;
 }
 .profile-tablet {
 	.mx-layoutcontainer .mx-layoutcontainer-wrapper {
-		padding: $t-padding-layoutcontainer-base;
+		padding: 0;
 	}
 }
 .profile-phone {
 	.mx-layoutcontainer .mx-layoutcontainer-wrapper {
-		padding: $m-padding-layoutcontainer-base;
+		padding: 0;
 	}
 }
 

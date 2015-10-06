@@ -4,30 +4,51 @@
    Used for navigation layouts
 ========================================================================== */
 .region-topbar {
-	min-height: $minimalheight-topbar;
-	border-bottom: 1px solid $color-border-default;
+	border-bottom: 1px solid $gray-primary;
 	background-color: $color-default;
-    border-bottom-color: $color-primary-dark;
-	  
+    border-bottom-color: $color-default;
+    min-height: 60px;
+	.mx-layoutcontainer-wrapper {
+		.mx-navbar ul.nav > li.mx-navbar-item > a {
+			color: $color-light;
+		}
+		.navbar-brand img {
+			height: 26px;
+			margin-top: -5px;
+			margin-right: 5px;
+		}
+		.mx-navbar ul.nav > li.mx-navbar-item > a {
+			padding: 20px;
+		}
+	}
+    
+    
 	> .mx-layoutcontainer-wrapper {
 		padding: 0;
 	}
 
-	.toggle-btn {
-		font-size: 16px;
-		float: left;
-		margin: 20px 15px 0 0;
+    .toggle-btn {
+		color: $color-light;
+        background: $color-primary;
+		border: none;
+        float: left;
+		font-size: 14px;
+		margin: 11px 10px 0 0;
+        &:focus{
+          background: $color-primary-dark;  
+            
+        }
 	}
 	
 	// SSO widgets
 	.navbar-right {
-		min-height: $minimalheight-topbar;
+		min-height: 60px;
 		.mx-appswitcher-button-placeholder,
 		.mx-profilemenu-button-placeholder  {
 			display: inline-block;
-			border-left: 1px solid $color-border-default;
-			width: $minimalheight-topbar;
-			height: $minimalheight-topbar;
+            border: 0;
+			width: 60px;
+			height: 60px;
 			position: relative;
 			float: left;
 			iframe {
@@ -69,7 +90,8 @@
 		// Fake orginal container styling on the first container on the page
 		.mx-layoutgrid-fixed {
 			max-width: 1170px;
-			margin: auto
+			margin: auto;
+            //background-color: $color-light;
 		}
 	}
 }
@@ -107,16 +129,16 @@
 ========================================================================== */
 .navbar-brand {
 	display: block;
-	min-height: 80px;
 	float: left;
-	padding: 22px 0;
+    min-height: 60px;
+	padding: 21px 5px;
 	img {
 		height: 37px;
 		display: inline-block;
 	}
 	a {
-		font-size: 20px;
-		color: $color-text-black;
+        color: $color-light;
+		font-size: 18px;
 
 		&:hover,
 		&:focus {

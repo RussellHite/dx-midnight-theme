@@ -11,20 +11,20 @@
 	display: block;
 	padding: 7px 8px;
 	width: 100%;
-	height: $input-height;
-	border: 1px solid $color-input-border;
+	height: 33px;
+	border: 1px solid #cbd2d9;
 	border-radius: 0;
-	background-color: $color-input-bg;
+	background-color: #f8fcff;
 	background-image: none;
-	color: $color-input-text;
+	color: $color-dark;
 	vertical-align: middle;
-	font-size: $font-size-base;
+	font-size: 14px;
 	line-height: $line-height-base;
     box-shadow: inset -3px -3px 0px 1px rgba(233,237,240,0.8);
 }
 .form-control:focus {
-	border-color: $color-input-border-focus;
-	background-color: $color-input-bg-focus;
+	border-color: $color-primary;
+	background-color: $color-light;
 	outline: 0;
 }
 textarea.form-control {
@@ -55,7 +55,7 @@ textarea.form-control {
 	@extend .form-control;
 	height: auto;
 	min-height: 33px;
-	background-color: $color-input-bg-disabled !important;
+	background-color: #cbd2d9 !important;
 	label { 
 		padding: 0 !important;
 	}
@@ -86,7 +86,7 @@ textarea.form-control {
 			cursor: pointer;
 		}
 		.mx-fileinput-upload-button:hover {
-			background-color: $color-btn-bg-default;
+			background-color: $color-default;
 		}
 	}
 }

@@ -8,8 +8,8 @@
 }
 .form-group .control-label {
 	margin-bottom: 5px;
-	color: $color-label;	
-	font-weight: $font-weight-label;	
+	color: lighten($color-dark, 40%);	
+	font-weight: 400;	
 }
 .form-footer {
 	border-top: 1px solid $gray-lighter;

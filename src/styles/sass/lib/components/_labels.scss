@@ -4,7 +4,8 @@
    Default labels combined with Bootstrap labels
 ========================================================================== */
 .label {
-	@include font(bold); 
+	font-family:$font-primary; 
+    font-weight:600;
 	border-radius: .25em;
 	display: inline;
 	padding: .2em .6em .3em !important;
@@ -16,26 +17,26 @@
 	line-height: 1;
 }
 .label-default { 
-	background-color: $color-label-bg-default; 
-	color: $color-label-text-default;
+	background-color: $color-default; 
+	color: $color-light;
 }
 .label-primary { 
-	background-color: $color-label-bg-primary; 
-	color: $color-label-text-primary;
+	background-color: $color-primary; 
+	color: $color-light;
 }
 .label-success { 
-	background-color: $color-label-bg-success; 
-	color: $color-label-text-success;
+	background-color: $color-success; 
+	color: $color-light;
 }
 .label-info { 
-	background-color: $color-label-bg-info; 
-	color: $color-label-text-info;
+	background-color: $color-info; 
+	color: $color-light;
 }
 .label-warning { 
-	background-color: $color-label-bg-warning; 
-	color: $color-label-text-warning;
+	background-color: $color-warning; 
+	color: $color-light;
 }
 .label-danger { 
-	background-color: $color-label-bg-danger; 
-	color: $color-label-text-danger;
+	background-color: $color-danger; 
+	color: $color-light;
 }
